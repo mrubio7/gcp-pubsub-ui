@@ -1,0 +1,5 @@
+{
+    "GCP_BASE_URL": "",
+    "SUSCRIPTION_MAX_MESSAGES": 10,
+    "GCP_SERVICE_ACCOUNT_FILE": "/"
+}

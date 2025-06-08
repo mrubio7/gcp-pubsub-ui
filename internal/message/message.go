@@ -6,6 +6,6 @@ type Message struct {
 	AckId        string    `json:"ack_id"`
 	Acknowledged bool      `json:"acknowledged"`
 	Topic        string    `json:"topic"`
-	Data         string    `json:"message"`
+	Data         []byte    `json:"data"`
 	Timestamp    time.Time `json:"timestamp"`
 }
